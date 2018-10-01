@@ -1,6 +1,6 @@
 #!/bin/bash
 PROG=$1
-if [ ! e $PROG ]
+if [ ! -e $PROG ]
     then
         echo "$PROG does not exist. Have you compiled it with make?"
         exit 1
